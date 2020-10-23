@@ -1,0 +1,17 @@
+/* font-family: 'Architects Daughter', cursive; [police importée] */ 
+
+html{ 
+    height:1500px;
+}
+
+.pos{
+    margin-top:100px;
+}
+
+.img-jumbotron {
+    background-image:url(phto.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Architects Daughter', cursive;;
+    color:yellow;
+}
