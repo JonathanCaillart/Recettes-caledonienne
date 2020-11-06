@@ -4,14 +4,46 @@ html{
     height:1500px;
 }
 
+.bg-color {
+    background-color: #01303de6;
+    border-radius: 7px;
+}
+
 .pos{
     margin-top:100px;
 }
 
 .img-jumbotron {
-    background-image:url(phto.jpg);
+    background-image:url(la-grande-terre.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    font-family: 'Architects Daughter', cursive;;
-    color:yellow;
+    background-position: center;
+    font-family: 'Architects Daughter', cursive ;
+    text-align:center;
+    color:#00ffff;
+    
+}
+
+.text-jumbotron {
+    font-weight: 700;
+    margin-left: 15%;
+    background-color: #212529d4;
+    border-radius: 10px;
+    width:67%;
+    
+}
+
+.card-img{
+    padding:10px;
+    
+}
+
+.card-title{
+    
+    font-family: 'Architects Daughter', cursive ;
+}
+
+.card-text {
+    font-family: 'Architects Daughter', cursive ;
+
 }
