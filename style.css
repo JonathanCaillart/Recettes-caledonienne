@@ -47,3 +47,26 @@ html{
     font-family: 'Architects Daughter', cursive ;
 
 }
+
+.title-text {
+    font-weight: bold;
+}
+
+.marinade {
+/* float:right; */
+/* text-align: right; */
+position: absolute;
+bottom:0;
+right:10%;
+font-family: 'Architects Daughter', cursive ;
+}
+
+@media (max-width: 990px) { 
+    
+    .marinade {
+        position:relative;
+        right:0%;
+    }
+
+
+    }
