@@ -10,33 +10,38 @@
 </head> 
 <body>
     <header>
-            <nav class=" container navbar navbar-dark bg-color fixed-top">
-                <a class="navbar-brand" href="#">haut</a>
-                <a class="navbar-brand" href="#">Milieu</a>
-                <a class="navbar-brand" href="#">bas</a>
-                <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2 " type="search" placeholder="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0 text-dark bg-white " type="submit">Search</button>
-                </form>
+            <nav class=" container navbar navbar-dark bg-color fixed-top card-text">
+                <a class="navbar-brand" href="#haut">Haut</a>
+                <a class="navbar-brand" href="#saute-de-cerf-caledonien">Le sauté de cerf calédonien</a>
+                <a class="navbar-brand" href="#poisson-cru-tahitien">Poisson cru à la tahitienne simple</a>
             </nav> 
     </header>
     <section>
-        <div class=" container jumbotron pos img-jumbotron">
+        <div class=" container jumbotron pos img-jumbotron" id="haut">
             <h1 class="text-jumbotron  ">Recettes calédoniennes</h1>
-            <p class="text-jumbotron">Ici vous trouverez 2 recettes typiques de la Nouvelle-Calédonie, grande terre du pacifique </p>
+            <p class="text-jumbotron" id= "saute-de-cerf-caledonien">Ici vous trouverez 2 recettes typiques de la Nouvelle-Calédonie, grande terre du pacifique </p>
         </div>
     </section>
     <section>
-        <div class=" container card mb-3" style="width: 100%;">
+        <div class=" container card mb-3 back-color" style="width: 100%;" >
             <div class="row no-gutters">
               <div class="col-md-4">
-                <img src="saute-de-cerf.jpg" class="card-img" alt="saute de cerf calédonien">
+                <img src="saute-de-cerf.jpg" class="card-img" alt="saute de cerf calédonien" >
               </div>
               <div class="col-md-8">
                 <div class="card-body">
-                  <h2 class="card-title">Le sauté de cerf calédonien</h2>
+                  <h2 class="card-title" >Le sauté de cerf calédonien</h2>
+                  <div class="icon-prep ">
+                    <svg class="space-between-icon" width="2.5em" height="2em" viewBox="0 0 16 16" class="bi bi-stopwatch" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" d="M6 .5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H9v1.07A7.001 7.001 0 0 1 8 16 7 7 0 0 1 7 2.07V1h-.5A.5.5 0 0 1 6 .5zM8 3a6 6 0 1 0 .001 12A6 6 0 0 0 8 3zm0 2.1a.5.5 0 0 1 .5.5V9a.5.5 0 0 1-.5.5H4.5a.5.5 0 0 1 0-1h3V5.6a.5.5 0 0 1 .5-.5z"/>
+                    </svg>
+                    <p class="space-between-icon"> Préparation <br>35min</p>
+                    <p class="space-between-icon"> Cuisson<br>30 min</p>
+                    <p class="space-between-icon"> Repos <br>3 jours</p>
+
+                  </div>
                   <div class="card-text">
-                    <p> INGRÉDIENTS : 8 PERS.</p>
+                    <h4> Ingrédients : 8 Pers.</h4>
                     <p class="title-text ">POUR LA VIANDE :</p>
                         <ul>
                         <li>1.6 kg de cerf</li>
@@ -72,11 +77,67 @@
           </div>
     </section>
     <section class="container">
-      <div>
-        <p>ffsfsrgr</p>
+      <div> 
+        <h2 class="title-text-v2">1.</h2>
+        <p class="recette-text">Laissez baigner la viande dans cette marinade de 12 heures à 3 jours au frais. Retournez la viande de temps en temps avec une cuillére en bois. Le cerf doit macérer assez longtemps de 2 à 3 jours, dans la marinade (il sera plus tendre et parfumé). </p>
+        <h2 class="title-text-v2">2.</h2>
+        <p class="recette-text">Égouttez la viande trés soigneusement. Dans la cocotte, faites chauffer le beurre et l'huile. Faites-y dorer la viande et le lard coupé en dés. Saupoudrez de farine. Retournez la viande. </p>
+        <h2 class="title-text-v2">3.</h2>
+        <p class="recette-text">Ajoutez un verre de vin blanc sec, la marinade et le bouquet garni, complétez avec un peu d'eau si besoin pour mouiller à 2 cm au dessus de la viande. Salez, poivrez. Fermez la cocotte. Laissez cuire doucement 50 min à partir de la mise en rotation de la soupape. </p>
+        <h2 class="title-text-v2">4.</h2>
+        <p class="recette-text">Servez ce ragoût avec du manioc cuit au lait de coco et des bananes Poingo cuites directement au four aprés les avoir incisées. Saupoudrez de persil haché avant de servir.</p>
       </div>
+      <div class="separation"></div>
       
     </section>
+    
+    <section>
+      <div class=" container card mb-3 back-color-v2" style="width: 100%;" id= "poisson-cru-tahitien">
+          <div class="row no-gutters">
+            <div class="col-md-4">
+              <img src="poisson-crue-tahitienne.jpg" class="card-img" alt="Poisson cru à la tahitienne simple">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h2 class="card-title-v2 ">Poisson cru à la tahitienne simple</h2>
+                <div class="icon-prep ">
+                  <svg class="space-between-icon" width="2.5em" height="2em" viewBox="0 0 16 16" class="bi bi-stopwatch" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M6 .5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H9v1.07A7.001 7.001 0 0 1 8 16 7 7 0 0 1 7 2.07V1h-.5A.5.5 0 0 1 6 .5zM8 3a6 6 0 1 0 .001 12A6 6 0 0 0 8 3zm0 2.1a.5.5 0 0 1 .5.5V9a.5.5 0 0 1-.5.5H4.5a.5.5 0 0 1 0-1h3V5.6a.5.5 0 0 1 .5-.5z"/>
+                  </svg>
+                  <p class="space-between-icon"> Préparation <br>20 min </p>
+
+
+                </div>
+                <div class="card-text-v2">
+                  <h4> Ingrédients : 4 Pers.</h4>
+                      <ul>
+                      <li>350 g de thon cru très frais </li>
+                      <li>1/2 concombre </li>
+                      <li>20 cl de lait de coco</li>
+                      <li>1 tomate </li>
+                      <li>quelques feuilles de coriandre</li>
+                      <li>3 citrons verts</li>
+                      <li>1/2 oignon ciselé </li>
+                      <li>sel, poivre</li>
+                      </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+  </section>
+  <section class="container">
+    <div>
+      <h2 class="title-text-v2">1.</h2>
+      <p class="recette-text">Coupez le thon en dés, mélangez-le avec l’oignon ciselé et ajoutez le jus de 2 citrons verts ; salez et poivrez. Mélangez bien et laissez reposer au frais pendant 20 min.</p>
+      <h2 class="title-text-v2">2.</h2>
+      <p class="recette-text">Coupez la tomate et le concombre préalablement épluché en dés.</p>
+      <h2 class="title-text-v2">3.</h2>
+      <p class="recette-text">Égouttez le poisson, déposez-le dans un saladier et versez le lait de coco. Ajoutez les dés de légumes et mélangez. Rectifiez l’assaisonnement avec le jus du citron restant, du sel et du poivre. </p>
+      <h2 class="title-text-v2">4.</h2>
+      <p class="recette-text">Servez le tout bien frais, parsemé de coriandre ciselée.</p>
+    </div>
+  </section>
 
 
 

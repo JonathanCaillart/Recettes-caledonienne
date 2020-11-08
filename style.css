@@ -1,16 +1,24 @@
 /* font-family: 'Architects Daughter', cursive; [police importée] */ 
 
 html{ 
-    height:1500px;
+
+    background-color:#191b1c !important;
+    scroll-behavior: smooth;
+
+}
+body {
+    background-color: #191b1c !important;
+    scroll-behavior: smooth;
 }
 
 .bg-color {
-    background-color: #01303de6;
-    border-radius: 7px;
+    background-color:  #191b1c;
+    /* border-radius: 7px; */
 }
 
 .pos{
     margin-top:100px;
+    
 }
 
 .img-jumbotron {
@@ -21,8 +29,20 @@ html{
     font-family: 'Architects Daughter', cursive ;
     text-align:center;
     color:#00ffff;
+
     
 }
+
+.back-color {
+    background: linear-gradient(#b5945f, #7d370e);
+}
+
+.back-color-v2{
+
+    background: linear-gradient(#e88773, #d3a9bc);
+
+}
+
 
 .text-jumbotron {
     font-weight: 700;
@@ -35,12 +55,21 @@ html{
 
 .card-img{
     padding:10px;
+    border-radius: 20px !important;
     
 }
 
 .card-title{
     
     font-family: 'Architects Daughter', cursive ;
+    text-decoration:underline
+}
+
+.card-title-v2{
+    
+    font-family: 'Architects Daughter', cursive ;
+    font-size: 30px;
+    text-decoration:underline ;
 }
 
 .card-text {
@@ -48,10 +77,24 @@ html{
 
 }
 
-.title-text {
-    font-weight: bold;
+.card-text-v2 {
+    font-family: 'Architects Daughter', cursive ;
+    font-size: 19px;
+
 }
 
+
+.title-text {
+    font-weight: bold;
+    font-family: 'Architects Daughter', cursive ;
+    
+}
+
+.title-text-v2 {
+    font-weight: bold;
+    font-family: 'Architects Daughter', cursive ;
+    color: #d1cdc7 !important;
+}
 .marinade {
 /* float:right; */
 /* text-align: right; */
@@ -61,12 +104,43 @@ right:10%;
 font-family: 'Architects Daughter', cursive ;
 }
 
+.icon-prep {
+    position:absolute;
+    font-size: 14px;
+    right: 0%;
+    top:5%;
+    display: flex;
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+.space-between-icon {
+    padding-left:10px;
+}
+
+.recette-text {
+    font-weight: bold;
+    color: #d1cdc7 !important;
+    font-size: 18px;
+    font-family: 'Architects Daughter', cursive ;
+}
+
+.separation {
+    /* text-decoration: overline; */
+    border-top: solid;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+}
 @media (max-width: 990px) { 
     
     .marinade {
         position:relative;
         right:0%;
     }
-
+    .icon-prep {
+        position:relative;
+    }
 
     }
